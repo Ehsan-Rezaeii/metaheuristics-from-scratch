@@ -218,3 +218,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project-specific rules
+# Raw data is not committed; only the data README is kept.
+data/*
+!data/README.md
+.venv/
+.env
+.ipynb_checkpoints/
+__pycache__/
